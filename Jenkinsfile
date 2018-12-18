@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'aws-112018/Aleatoire'
+      image 'aws-112018/aleatoire'
       args '-v /root/.ssh:/root/.ssh/'
     }
 
