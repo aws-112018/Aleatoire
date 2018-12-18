@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
-      image 'aws-112018/aleatoire'
-      args '-v /root/.ssh:/root/.ssh/'
+      image 'squidfunk/mkdocs-material'
+      args '-p 3000:30000'
     }
 
   }
