@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'squidfunk/mkdocs-material'
+      image 'cfinfrastructure/mkdocs'
       args '-p 3000:30000'
     }
 
